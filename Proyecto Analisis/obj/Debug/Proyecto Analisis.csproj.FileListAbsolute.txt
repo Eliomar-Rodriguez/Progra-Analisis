@@ -1,0 +1,9 @@
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe.config
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.pdb
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.exe
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.pdb
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe.config
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\obj\Debug\Proyecto Analisis.exe
+C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\obj\Debug\Proyecto Analisis.pdb
