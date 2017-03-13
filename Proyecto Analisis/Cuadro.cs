@@ -8,10 +8,10 @@ namespace Proyecto_Analisis
 {
     class Cuadro
     {
-        public int Up { get; set; }
-        public int Down { get; set; }
-        public int Right { get; set; }
-        public int Left { get; set; } // atributos que van a representar los posibles numeros que estaran en los lados del cuadro
+        public int up { get; set; }
+        public int down { get; set; }
+        public int right { get; set; }
+        public int left { get; set; } // atributos que van a representar los posibles numeros que estaran en los lados del cuadro
 
         /// <summary>
         /// Constructor de la clase cuadro
@@ -22,10 +22,10 @@ namespace Proyecto_Analisis
         /// <param name="left">Numero que va a la izquierda (en el cuadro)</param>
         public Cuadro(int up, int down, int right, int left)
         {
-            Up = up;
-            Down = down;
-            Right = right;
-            Left = left;
+            this.up = up;
+            this.down = down;
+            this.right = right;
+            this.left = left;
             //Console.WriteLine("Up = {0} Down = {1}", this.Up, this.Down); // manera de imprimir en orden, dependiendo del numero que se ingrese entre las llaves como una lista
         }
         /// <summary>
@@ -33,10 +33,10 @@ namespace Proyecto_Analisis
         /// </summary>
         public Cuadro()
         {
-            Up = -1;
-            Down = -1;
-            Right = -1;
-            Left = -1;
+            up = -1;
+            down = -1;
+            right = -1;
+            left = -1;
         }
     }
 }
