@@ -17,13 +17,17 @@ namespace Proyecto_Analisis
         }
         static void Main(string[] args)
         {
+            /*
             // prueba para ver la funcionalidad de los objetos
             Cuadro cuadro = new Cuadro();
-            cuadro.Up = 9;
-            cuadro.Right = 8;
+            cuadro.up = 9;
+            cuadro.right = 8;
             Inicio();
-            Console.WriteLine("\nUp "+cuadro.Up+"\nDown"+cuadro.Down+"\nRight "+cuadro.Right+"\nLeft"+cuadro.Left);
+            Console.WriteLine("\nUp "+cuadro.up+"\nDown"+cuadro.down+"\nRight "+cuadro.right+"\nLeft"+cuadro.left);
             Console.ReadKey();
+            */
+            Juego ejemplo = new Juego(3);
+            ejemplo.imprimir();
         }
     }
 }
