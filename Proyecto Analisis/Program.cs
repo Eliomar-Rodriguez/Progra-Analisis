@@ -8,12 +8,14 @@ namespace Proyecto_Analisis
 {
     class Program
     {
+        static List<List<Cuadro>> matrizRespuesta = new List<List<Cuadro>>();
         /// <summary>
         /// Mostrara el inicio del programa, menu, etc
         /// </summary>
         static void Inicio()
         {
-            Console.WriteLine("     Matrices     \n1) Correr programa y solucionar");
+            Console.WriteLine(" - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
+            Console.WriteLine("|\t\tMenú Principal de Tetravex\t\t  |\n - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\t1) Solucionar con algoritmo fuerza brutan\t2)");
         }
         static void Main(string[] args)
         {
@@ -23,7 +25,9 @@ namespace Proyecto_Analisis
             cuadro.up = 9;
             cuadro.right = 8;
             Inicio();
-            Console.WriteLine("\nUp "+cuadro.up+"\nDown"+cuadro.down+"\nRight "+cuadro.right+"\nLeft"+cuadro.left);
+
+            Console.WriteLine("\nUp "+cuadro.Up+"\nDown"+cuadro.Down+"\nRight "+cuadro.Right+"\nLeft"+cuadro.Left);
+
             Console.ReadKey();
             */
             Juego ejemplo = new Juego(3);
