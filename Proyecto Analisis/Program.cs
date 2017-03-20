@@ -15,23 +15,19 @@ namespace Proyecto_Analisis
         static void Inicio()
         {
             Console.WriteLine(" - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
-            Console.WriteLine("|\t\tMenú Principal de Tetravex\t\t  |\n - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\t1) Solucionar con algoritmo fuerza brutan\t2)");
+            Console.WriteLine("|\t\tMenú Principal de Tetravex\t\t  |\n - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n");
         }
         static void Main(string[] args)
         {
-            /*
-            // prueba para ver la funcionalidad de los objetos
-            Cuadro cuadro = new Cuadro();
-            cuadro.up = 9;
-            cuadro.right = 8;
+            int orden = 3; // tamanio de la matriz
             Inicio();
-
-            Console.WriteLine("\nUp "+cuadro.Up+"\nDown"+cuadro.Down+"\nRight "+cuadro.Right+"\nLeft"+cuadro.Left);
-
-            Console.ReadKey();
-            */
-            Juego ejemplo = new Juego(3);
+            
+            Juego ejemplo = new Juego(orden);
+            Console.WriteLine("Fichas resueltas\n");
             ejemplo.imprimir();
+            Console.WriteLine("\n\nFichas desordenadas\n");
+            ejemplo.desordenarFichas();
+            ejemplo.imprimirFichas();
         }
     }
 }
