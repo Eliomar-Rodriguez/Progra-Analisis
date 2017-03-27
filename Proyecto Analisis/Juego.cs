@@ -17,10 +17,12 @@ namespace Proyecto_Analisis
         /// Matriz que contiene todas las fichas en las posiciones a las que pertenecen, el juego esta resuelto
         /// </summary>
         List<List<Cuadro>> matrizRespuesta = new List<List<Cuadro>>();
+        int asignaciones = 0, comparaciones = 0;
 
         public Juego(int n)
         {
             this.n = n;
+
            Random rnd = new Random();
             
             // llenando la matriz respuesta
@@ -32,6 +34,7 @@ namespace Proyecto_Analisis
                 {
                     matrizRespuesta[j].Add(new Cuadro());
                     matrizFichas[j].Add(new Cuadro());
+
                     if ((j == 0) && (l == 0))
                     {
                         matrizRespuesta[j][l].down = rnd.Next(10);
@@ -63,46 +66,33 @@ namespace Proyecto_Analisis
                         matrizRespuesta[j][l].left = matrizRespuesta[j][l-1].right;
                         matrizRespuesta[j][l].right = rnd.Next(10);
                     }
+
                 }
             }
         }
-
-        public void imprimir()
+        /// <summary>
+        /// Imprime todas las fichas de la matriz que se envia
+        /// </summary>
+        /// <param name="m">Matriz a imprimir fichas</param>
+        public void ImprimirFichas(List<List<Cuadro>> matriz)
         {
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write(matrizRespuesta[i][j].up); //Escribe en una sola linea
-                    Console.Write(matrizRespuesta[i][j].down); //Escribe en una sola linea 
-                    Console.Write(matrizRespuesta[i][j].left); //Escribe en una sola linea 
-                    Console.Write(matrizRespuesta[i][j].right + " "); //Escribe en una sola linea     
+                    Console.Write(matriz[i][j].up); //Escribe en una sola linea
+                    Console.Write(matriz[i][j].left); //Escribe en una sola linea 
+                    Console.Write(matriz[i][j].down); //Escribe en una sola linea
+                    Console.Write(matriz[i][j].right+" "); //Escribe en una sola linea    
                 }
                 Console.WriteLine(); //Genera el salto de linea 
             }
             Console.ReadLine();
         }
-
-        public void imprimirFichas()
-        {
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    Console.Write(matrizFichas[i][j].up); //Escribe en una sola linea
-                    Console.Write(matrizFichas[i][j].down); //Escribe en una sola linea 
-                    Console.Write(matrizFichas[i][j].left); //Escribe en una sola linea 
-                    Console.Write(matrizFichas[i][j].right + " "); //Escribe en una sola linea     
-                }
-                Console.WriteLine(); //Genera el salto de linea 
-            }
-            Console.ReadLine();   
-        }
-
         /// <summary>
         /// Funcion que se encarga de revolver las fichas para iniciar el juego
         /// </summary>     
-        public void desordenarFichas()
+        public void DesordenarFichas()
         {
             matrizFichas = matrizRespuesta;
 
@@ -126,6 +116,78 @@ namespace Proyecto_Analisis
                     }
                 }
             }
+        }
+        public List<List<Cuadro>> getMatrizFichas()
+        {
+            return matrizFichas;
+        }
+
+        public List<List<Cuadro>> getMatrizResuelta()
+        {
+            return matrizRespuesta;
+        }
+
+
+        public bool FuerzaBruta(List<Cuadro> fichas, int i, int j)
+        {
+            comparaciones++;
+            if (j == n)
+            {
+                asignaciones += 2;
+                i++;
+                j = 0;
+            }
+            comparaciones += 2;
+            if ((i == n - 1)&(j == n - 1))
+            {
+                asignaciones++;
+                matrizFichas[i][j] = fichas[0];
+                comparaciones++;
+                if (Comprobar())
+                {
+                    ImprimirFichas(matrizFichas);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                asignaciones++;
+                comparaciones += fichas.Count+1;
+                asignaciones += fichas.Count;
+                for (int count=0;count<fichas.Count;count++)
+                {
+                    asignaciones++;
+                    Cuadro ficha = fichas[0];
+                    asignaciones++;
+                    matrizFichas[i][j] = ficha;
+                    fichas.RemoveAt(0);
+                    comparaciones++;
+                    if (FuerzaBruta(fichas, i, j+1))
+                    {
+                        return true;
+                    }
+                    fichas.Add(ficha);
+                }
+                return false;
+            }
+           return false; 
+        }
+
+        public bool Comprobar()
+        {
+            for (int i=0; i<n; i++)
+            {
+                for(int j=0; j<n; j++)
+                {
+                    if (matrizFichas[i][j] != matrizRespuesta[i][j])
+                        return false;
+                }
+            }
+            return true;
         }
     }
 }

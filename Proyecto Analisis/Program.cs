@@ -21,13 +21,38 @@ namespace Proyecto_Analisis
         {
             int orden = 3; // tamanio de la matriz
             Inicio();
-            
+
             Juego ejemplo = new Juego(orden);
+            /*
             Console.WriteLine("Fichas resueltas\n");
-            ejemplo.imprimir();
+            ejemplo.ImprimirFichas(ejemplo.getMatrizResuelta());
             Console.WriteLine("\n\nFichas desordenadas\n");
-            ejemplo.desordenarFichas();
-            ejemplo.imprimirFichas();
+            ejemplo.DesordenarFichas();
+            ejemplo.ImprimirFichas(ejemplo.getMatrizFichas());
+            
+            Console.ReadKey();*/
+
+            //Juego ejemplo = new Juego(orden);
+
+            ejemplo.ImprimirFichas(ejemplo.getMatrizResuelta());
+
+            ejemplo.DesordenarFichas();
+
+            ejemplo.ImprimirFichas(ejemplo.getMatrizFichas());
+
+            Console.Write("Comenzando fuerza bruta");
+            Console.ReadLine();
+            
+            List<Cuadro> fichas = new List<Cuadro>();
+            foreach (List<Cuadro>lista in ejemplo.getMatrizFichas())
+            {
+                foreach(Cuadro ficha in lista)
+                {
+                    fichas.Add(ficha);
+                }
+            }
+            ejemplo.FuerzaBruta(fichas,0,0);
+            
         }
     }
 }
