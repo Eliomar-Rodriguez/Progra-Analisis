@@ -30,7 +30,7 @@ namespace Proyecto_Analisis
 
             Console.ReadKey();
             */
-            Juego ejemplo = new Juego(3);
+            Juego ejemplo = new Juego(4);
             ejemplo.imprimir(ejemplo.getInicial());
             ejemplo.imprimir(ejemplo.getResuelta());
             Console.Write((ejemplo.getInicial()[0][0] == ejemplo.getResuelta()[0][0]));
