@@ -15,41 +15,44 @@ namespace Proyecto_Analisis
         static void Inicio()
         {
             Console.WriteLine(" - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
-            Console.WriteLine("|\t\tMenú Principal de Tetravex\t\t  |\n - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\t1) Solucionar con algoritmo fuerza brutan\t2)");
+            Console.WriteLine("|\t\tMenú Principal de Tetravex\t\t  |\n - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n");
         }
         static void Main(string[] args)
         {
-            /*
-            // prueba para ver la funcionalidad de los objetos
-            Cuadro cuadro = new Cuadro();
-            cuadro.up = 9;
-            cuadro.right = 8;
+            int orden = 3; // tamanio de la matriz
             Inicio();
 
-            Console.WriteLine("\nUp "+cuadro.Up+"\nDown"+cuadro.Down+"\nRight "+cuadro.Right+"\nLeft"+cuadro.Left);
+            Juego ejemplo = new Juego(orden);
+            /*
+            Console.WriteLine("Fichas resueltas\n");
+            ejemplo.ImprimirFichas(ejemplo.getMatrizResuelta());
+            Console.WriteLine("\n\nFichas desordenadas\n");
+            ejemplo.DesordenarFichas();
+            ejemplo.ImprimirFichas(ejemplo.getMatrizFichas());
+            
+            Console.ReadKey();*/
 
-            Console.ReadKey();
-            */
-            Juego ejemplo = new Juego(4);
-            ejemplo.imprimir(ejemplo.getInicial());
-            ejemplo.imprimir(ejemplo.getResuelta());
-            Console.Write((ejemplo.getInicial()[0][0] == ejemplo.getResuelta()[0][0]));
-            ejemplo.mix();
-            ejemplo.imprimir(ejemplo.getInicial());
-            ejemplo.imprimir(ejemplo.getResuelta());
+            //Juego ejemplo = new Juego(orden);
+
+            ejemplo.ImprimirFichas(ejemplo.getMatrizResuelta());
+
+            ejemplo.DesordenarFichas();
+
+            ejemplo.ImprimirFichas(ejemplo.getMatrizFichas());
+
             Console.Write("Comenzando fuerza bruta");
             Console.ReadLine();
             
             List<Cuadro> fichas = new List<Cuadro>();
-            foreach (List<Cuadro>lista in ejemplo.getInicial())
+            foreach (List<Cuadro>lista in ejemplo.getMatrizFichas())
             {
                 foreach(Cuadro ficha in lista)
                 {
                     fichas.Add(ficha);
                 }
             }
-            ejemplo.fuerzaBruta(fichas,0,0);
-
+            ejemplo.FuerzaBruta(fichas,0,0);
+            
         }
     }
 }
