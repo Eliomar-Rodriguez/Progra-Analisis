@@ -8,7 +8,6 @@ namespace Proyecto_Analisis
 {
     class Program
     {
-        static List<List<Cuadro>> matrizRespuesta = new List<List<Cuadro>>();
         /// <summary>
         /// Mostrara el inicio del programa, menu, etc
         /// </summary>

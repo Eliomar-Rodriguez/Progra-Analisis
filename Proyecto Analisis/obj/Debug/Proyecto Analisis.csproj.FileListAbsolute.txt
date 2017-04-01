@@ -1,18 +1,24 @@
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe.config
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.pdb
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.csprojResolveAssemblyReference.cache
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.exe
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.pdb
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe.config
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\obj\Debug\Proyecto Analisis.exe
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\obj\Debug\Proyecto Analisis.pdb
-C:\Users\jafeth\Documents\Universidad\Proyecto de Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe.config
-C:\Users\jafeth\Documents\Universidad\Proyecto de Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.exe
-C:\Users\jafeth\Documents\Universidad\Proyecto de Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.pdb
-C:\Users\jafeth\Documents\Universidad\Proyecto de Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe
-C:\Users\jafeth\Documents\Universidad\Proyecto de Analisis\Proyecto Analisis\bin\Debug\Proyecto Analisis.pdb
-C:\Users\jafeth\Documents\Universidad\Proyecto de Analisis\Proyecto Analisis\obj\Debug\Proyecto Analisis.csprojResolveAssemblyReference.cache
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\bin\Debug\Proyecto Analisis.exe
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\bin\Debug\Proyecto Analisis.pdb
-C:\Users\USUARIO\Desktop\I semestre 2017\Analisis de algoritmos\Primer proyecto\Proyecto Analisis\obj\Debug\Proyecto Analisis.csprojResolveAssemblyReference.cache
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe.config
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.pdb
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.csprojResolveAssemblyReference.cache
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.exe
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.pdb
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe.config
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/obj/Debug/Proyecto Analisis.exe
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/obj/Debug/Proyecto Analisis.pdb
+C:/Users/jafeth/Documents/Universidad/Proyecto de Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe.config
+C:/Users/jafeth/Documents/Universidad/Proyecto de Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.exe
+C:/Users/jafeth/Documents/Universidad/Proyecto de Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.pdb
+C:/Users/jafeth/Documents/Universidad/Proyecto de Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe
+C:/Users/jafeth/Documents/Universidad/Proyecto de Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.pdb
+C:/Users/jafeth/Documents/Universidad/Proyecto de Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.csprojResolveAssemblyReference.cache
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/bin/Debug/Proyecto Analisis.pdb
+C:/Users/USUARIO/Desktop/I semestre 2017/Analisis de algoritmos/Primer proyecto/Proyecto Analisis/obj/Debug/Proyecto Analisis.csprojResolveAssemblyReference.cache
+/Users/jafethvasquez/Progra-Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe.config
+/Users/jafethvasquez/Progra-Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe
+/Users/jafethvasquez/Progra-Analisis/Proyecto Analisis/bin/Debug/Proyecto Analisis.exe.mdb
+/Users/jafethvasquez/Progra-Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.csprojResolveAssemblyReference.cache
+/Users/jafethvasquez/Progra-Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.exe
+/Users/jafethvasquez/Progra-Analisis/Proyecto Analisis/obj/Debug/Proyecto Analisis.exe.mdb
