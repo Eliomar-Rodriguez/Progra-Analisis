@@ -19,7 +19,8 @@ namespace Proyecto_Analisis
         }
         static void Main(string[] args)
         {
-            int orden = 3; // tamanio de la matriz
+            int orden = 8
+                ; // tamanio de la matriz
             Inicio();
 
             Juego ejemplo = new Juego(orden);
@@ -42,17 +43,10 @@ namespace Proyecto_Analisis
 
             Console.Write("Comenzando fuerza bruta");
             Console.ReadLine();
-            
-            List<Cuadro> fichas = new List<Cuadro>();
-            foreach (List<Cuadro>lista in ejemplo.getMatrizFichas())
-            {
-                foreach(Cuadro ficha in lista)
-                {
-                    fichas.Add(ficha);
-                }
-            }
-            ejemplo.FuerzaBruta(fichas,0,0);
-            
+            ejemplo.algoritmoSelectivo();
+            Console.Write("finalizado");
+            Console.ReadLine();
+
         }
     }
 }
